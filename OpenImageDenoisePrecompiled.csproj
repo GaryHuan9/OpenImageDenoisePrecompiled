@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>OpenImageDenoisePrecompiled</PackageId>
+		<Description>A package containing precompiled binarys from Intel Open Image Denoise.</Description>
+		<Version>1.0.0</Version>
+		<Authors>Gary Huang</Authors>
+		<PackageTags>Oidn Open Image Denoise Ray Tracing</PackageTags>
+		<PackageProjectUrl>https://github.com/GaryHuan9/OpenImageDenoisePrecompiled</PackageProjectUrl>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<DebugType>portable</DebugType>
+		<RuntimeIdentifiers>linux-x64;osx-x64;win-x64</RuntimeIdentifiers>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="oidn/linux/libOpenImageDenoise.so">
+			<PackagePath>runtimes/linux-x64/native/</PackagePath>
+		</Content>
+		<Content Include="oidn/linux/libtbb.so">
+			<PackagePath>runtimes/linux-x64/native/</PackagePath>
+		</Content>
+		<Content Include="oidn/macos/libOpenImageDenoise.dylib">
+			<PackagePath>runtimes/osx-x64/native/</PackagePath>
+		</Content>
+		<Content Include="oidn/macos/libtbb.dylib">
+			<PackagePath>runtimes/osx-x64/native/</PackagePath>
+		</Content>
+		<Content Include="oidn/windows/OpenImageDenoise.dll">
+			<PackagePath>runtimes/win-x64/native/</PackagePath>
+		</Content>
+		<Content Include="oidn/windows/tbb.dll">
+			<PackagePath>runtimes/win-x64/native/</PackagePath>
+		</Content>
+	</ItemGroup>
+</Project>
