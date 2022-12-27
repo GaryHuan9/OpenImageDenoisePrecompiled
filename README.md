@@ -1,6 +1,6 @@
 # OpenImageDenoisePrecompiled
 
-This is a [NuGet](https://www.nuget.org/packages/OpenImageDenoisePrecompiled/1.0.0] package) package that simply includes precompiled releases of Intel's [Open Image Denoise](http://openimagedenoise.org) library.
+This is a [NuGet](https://www.nuget.org/packages/OpenImageDenoisePrecompiled/1.0.0 package) package that simply includes precompiled releases of Intel's [Open Image Denoise](http://openimagedenoise.org) library.
 The precompiled files support 64-bit versions of Linux, MacOS, and Windows, and they came straight from the official [download page](https://www.openimagedenoise.org/downloads.html).
 There is also a simple class `OidnPrecompiled` that helps with the loading and unloading of the library in C#.
 I use this package in the [Echo](https://github.com/GaryHuan9/Echo) project.
