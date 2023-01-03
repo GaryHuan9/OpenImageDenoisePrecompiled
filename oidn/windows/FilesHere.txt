@@ -1,1 +1,1 @@
-Rename and move the two files `OpenImageDenoise.dll` and `tbb.dll` here from the `./bin/` folder.
+Rename and move the two files `OpenImageDenoise.dll` and `tbb12.dll` here from the `./bin/` folder.

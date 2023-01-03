@@ -9,11 +9,11 @@ public static class OidnPrecompiled
 	/// The path to the precompiled Open Image Denoise binary.
 	/// </summary>
 	public const string Path = "OpenImageDenoise";
-	
+
 	/// <summary>
 	/// The path to the precompiled Thread Building Blocks binary required by Oidn.
 	/// </summary>
-	public const string TbbPath = "tbb";
+	public const string TbbPath = "tbb12";
 
 	static readonly object locker = new();
 

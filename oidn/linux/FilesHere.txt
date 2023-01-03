@@ -1,1 +1,1 @@
-Rename and move the two files `libOpenImageDenoise.so` and `libtbb.so` here from the `./lib/` folder.
+Rename and move the two files `libOpenImageDenoise.so` and `libtbb12.so` here from the `./lib/` folder.

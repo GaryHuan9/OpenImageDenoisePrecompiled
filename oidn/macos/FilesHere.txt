@@ -1,1 +1,1 @@
-Rename and move the two files `libOpenImageDenoise.dylib` and `libtbb.dylib` here from the `./lib/` folder.
+Rename and move the two files `libOpenImageDenoise.dylib` and `libtbb12.dylib` here from the `./lib/` folder.

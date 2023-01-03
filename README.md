@@ -8,7 +8,7 @@ I use this package in the [Echo](https://github.com/GaryHuan9/Echo) project.
 To update the files when a new version comes out:
 1. Download the 3 compressed files from the [download page](https://www.openimagedenoise.org/downloads.html).
 2. Uncompress the downloaded files into folders.
-3. Rename and copy the `OpenImageDenoise` and `tbb` binaries into `./oidn/linux/`, `./oidn/macos/`, and `./oidn/windows/`.
+3. Rename and copy the `OpenImageDenoise` and `tbb12` binaries into `./oidn/linux/`, `./oidn/macos/`, and `./oidn/windows/`.
 4. Build the project, this should automatically pack it.
 5. Find the `.nuget` file in `./bin/Debug/` and upload it to `nuget.org`.
 
